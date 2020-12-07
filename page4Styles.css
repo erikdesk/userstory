@@ -1,0 +1,84 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vw;
+}
+
+.box {
+    width: 30vw;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image {
+    height: 10vw;
+}
+
+.textbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 11px;
+    background-color:rgb(230, 253, 231);
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-right: 1vw;
+    height: 2vw;
+    width: 14vw;
+    margin: 5px;
+}
+
+.text {
+    font-size: 1.25vw;
+    color: green;
+    margin: 5px;
+}
+
+.button-create {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.25vw;
+    background-color: rgb(245, 216, 216);
+    color: black;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 5px;
+    height: 5vw;
+    width: 14vw;
+}
+
+.button-login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.25vw;
+    background-color:rgb(186, 247, 189);
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 5px;
+    height: 5vw;
+    width: 8vw;
+}
