@@ -1,0 +1,232 @@
+div {
+    /* border: 1px dotted purple; */
+    /* padding: 2px;
+    margin: 2px; */
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.header-logo {
+    width: 10vw;
+    height: 10vw;
+    margin: 1vw;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84vw;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: white;
+    background-color: black;
+}
+
+.header-logo-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 10vw;
+    height: 10vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    height: 8vw;
+}
+
+.sub-header-log-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
+
+.sub-header-log-in-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1px;
+}
+
+.sub-header-log-in-icon-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 4vw;
+    margin: 1px;
+}
+
+.sub-header-log-in-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 11px;
+    background-color:rgb(186, 247, 189);
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-right: 1vw;
+    height: 5vw;
+}
+
+.sub-header-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84vw;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.sub-header-selection-adv {
+    width: 20vw;
+    height: 7vw;
+    margin: 2px;
+}
+
+.sub-header-selection-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sub-header-selection-categories-button {
+    background-color: rgb(245, 216, 216);
+    color: black;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 5vw;
+    font-size: 2vw;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.main-left {
+    width: 10vw;
+    margin: 1vw;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 84vw;
+    margin-left: 0vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.main-left-adv {
+    width: 8vw;
+    height: 20vw;
+    margin: 2px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 84vw;
+    margin: 2px;
+}
+
+.card-left {
+}
+
+.card-left-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 10vw;
+    height: 10vw;
+}
+
+.card-right {
+    width: 72vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.card-right-headline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    height: 4vw;
+    margin: 2px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.card-right-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 9px;
+    height: 14vw;
+    margin: 2px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+p {
+    margin: 2px;
+}
+
+.adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 207, 235);
+    color: purple;
+    border: 1px solid purple;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 10px;
+}
